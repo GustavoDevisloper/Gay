@@ -14,78 +14,52 @@ body h1 {
 
 .text h2 {
     position: relative;
-    top: 200px;
+    top: 10%;
     font-family: 'Comfortaa', cursive;
     color: white;
     text-align: center;
 }
 
 .buttonYes {
-    position: relative;
-    top: 300px;
-    left: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 182px;
-    height: 64px;
-    padding: 5px 10px;
-    gap: 8px;
+    width: 40%;
+    height: auto;
+    padding: 5% 10%;
     border-radius: 999px;
     background: var(--platform-aliases-shape-principal, #202024);
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.15), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 14px 14px 0px rgba(0, 0, 0, 0.13), 0px 32px 19px 0px rgba(0, 0, 0, 0.08), 0px 57px 23px 0px rgba(0, 0, 0, 0.02), 0px 89px 25px 0px rgba(0, 0, 0, 0.00);
     color: white;
     font-family: Arial, sans-serif;
-    font-size: 25px;
+    font-size: 4vw;
+    margin: 2% auto;
 }
 
 .buttonNo {
-    position: relative;
-    top: 225px;
-    left: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 182px;
-    height: 64px;
-    padding: 5px 10px;
-    gap: 8px;
+    width: 40%;
+    height: auto;
+    padding: 5% 10%;
     border-radius: 999px;
     background: var(--platform-aliases-shape-principal, #202024);
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.15), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 14px 14px 0px rgba(0, 0, 0, 0.13), 0px 32px 19px 0px rgba(0, 0, 0, 0.08), 0px 57px 23px 0px rgba(0, 0, 0, 0.02), 0px 89px 25px 0px rgba(0, 0, 0, 0.00);
     color: white;
     font-family: Arial, sans-serif;
-    font-size: 25px;
+    font-size: 4vw;
+    margin: 2% auto;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
     .text h2 {
-        top: 100px;
-    }
-
-    .buttonYes {
-        position: static;
-        top: auto;
-        left: auto;
-        margin: 150px 1px;
-    }
-
-    .buttonNo {
-        position: static;
-        top: auto;
-        left: auto;
-        margin: -222px 210px;
+        top: 5%;
     }
 }
 
-@media (min-width: 601px) and (max-width: 896px) {
-    .buttonNo {
-        margin-left: 20px;
-    }
-}
-
-@media (min-width: 897px) {
-    .buttonNo {
-        left: 800px;
+@media (max-width: 480px) {
+    .text h2 {
+        top: 3%;
     }
 }

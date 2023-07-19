@@ -56,10 +56,15 @@ body h1 {
     .text h2 {
         top: 5%;
     }
-}
 
-@media (max-width: 480px) {
-    .text h2 {
-        top: 3%;
+    .buttonYes,
+    .buttonNo {
+        position: static;
+        width: 80%;
+        margin: 10% auto;
+    }
+
+    .buttonNo {
+        margin-top: 5%;
     }
 }

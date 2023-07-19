@@ -68,3 +68,13 @@ body h1 {
         margin-top: 5%;
     }
 }
+
+@media (min-width: 769px) {
+    .buttonYes {
+        margin-left: 2%;
+    }
+
+    .buttonNo {
+        margin-right: 2%;
+    }
+}

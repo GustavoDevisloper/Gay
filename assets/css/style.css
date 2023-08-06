@@ -52,6 +52,7 @@ body h1 {
     margin: -25% auto;
 }
 
+
 @media (max-width: 768px) {
     .text h2 {
         top: 5%;
